@@ -11,9 +11,9 @@ package com.malleus.io
 //import java.io.*
 //
 //fun main(args: Array<String>) {
-//    var reader = BufferedReader(InputStreamReader(System.`in`))
-//    var first = reader.readLine().toInt()
-//    var second = reader.readLine().toInt()
+//    val reader = BufferedReader(InputStreamReader(System.`in`))
+//    val first = reader.readLine().toInt()
+//    val second = reader.readLine().toInt()
 //    println(first + second)
 //}
 
@@ -21,10 +21,6 @@ package com.malleus.io
 //    println(readLine()!!.split(" ")[0].toInt().let { readLine()!!.split(" ")[0].plus(it) })
 //}
 
-import kotlin.io.*
-
-fun main(args: Array<String>) {
-    val first : Int = readLine()?.toInt()!!
-    val second : Int = readLine()?.toInt()!!
-    println(first + second)
+fun main() {
+    println(readLine()!!.toInt() + readLine()!!.toInt())
 }

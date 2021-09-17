@@ -22,7 +22,7 @@ import kotlin.reflect.typeOf
 //    }
 //}
 
-fun main(args: Array<String>) {
+fun main() {
     val n = readLine()!!.split(" ")[0].toInt()
     for(i in 0 until n) {
         println(readLine()!!.split(" ").sumOf{it.toInt()})

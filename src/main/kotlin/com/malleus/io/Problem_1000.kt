@@ -13,6 +13,6 @@ package com.malleus.io
 //    println(nextInt() + nextInt())
 //}
 
-fun main(args: Array<String>) {
+fun main() {
     println(readLine()?.split(" ")?.sumOf { it.toInt() })
 }
